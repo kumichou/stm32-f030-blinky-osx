@@ -11,9 +11,9 @@
 
 ###Install homebrew
 
-[ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"](ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)")
+    $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-###Setup BASH PATH to include any Homebrew install binaries
+###Modify BASH PATH to include any Homebrew installed binaries
 
     $ nano ~/.bashc
 
@@ -47,7 +47,7 @@
 ###Install EmbSysRegView Eclipse Plugin
 [http://embsysregview.sourceforge.net/update](http://embsysregview.sourceforge.net/update)
 
-###Setup BASH PATH variable to find ARM tools & openocd
+###Modify BASH PATH variable to find ARM tools & openocd
 
     $ nano ~/.bashrc
 
